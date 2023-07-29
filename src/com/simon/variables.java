@@ -16,10 +16,10 @@ public class variables {
         System.out.println(isTall);
         System.out.println(a);
         // How to use underscore to make numbers readable
-        double doble_example = 352_251.125_891;
+        double double_example = 352_251.125_891;
         int millions = 1_000_000;
         int billions = 1_000_000_000;
-        System.out.println(doble_example);
+        System.out.println(double_example);
         System.out.println(millions);
         System.out.println(billions);
         System.out.println(number1 + number2);

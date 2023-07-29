@@ -1,0 +1,10 @@
+Package is a folder that allow you to structure a program.
+packages are used to group related classes.
+packages are divided into two categories:
+    - Build-in packages (from Java API)
+    - User defined packages (created by the user)
+
+TO use a class or package from the JAVA API library we use the `import`
+keyword:
+    import package.name.class
+    import package.name.*
