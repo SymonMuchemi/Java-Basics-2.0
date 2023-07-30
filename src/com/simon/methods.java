@@ -1,17 +1,16 @@
 package com.simon;
+/*
+    Methods contain the following:
+        - Access modifiers
+        - optional static
+        - return type
+        - name
+        - optional parameters
+        - optional return value
+*/
+import java.util.Locale;
 
 public class methods {
-    /*
-        Methods contain the following:
-            - Access modifiers
-            - optional static
-            - return type
-            - name
-            - optional parameters
-            - optional return value
-    */
-
-
     private static int addNumbers(int a, int b){
         return (a + b);
     }
@@ -22,5 +21,16 @@ public class methods {
 
         System.out.println(result);
         System.out.println(result2);
+
+        System.out.println("Built in methods");
+        String name = "Simon";
+        String brand = "Muchemi";
+
+        System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase(Locale.ROOT));
+        System.out.println(brand.lastIndexOf("m"));
+        System.out.println(brand.startsWith("c"));
+        System.out.println(brand.endsWith("i"));
+
     }
 }
