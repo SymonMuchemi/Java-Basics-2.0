@@ -1,4 +1,6 @@
 package com.simon;
+
+import java.util.Locale;
 /*
     Methods contain the following:
         - Access modifiers
@@ -8,8 +10,6 @@ package com.simon;
         - optional parameters
         - optional return value
 */
-import java.util.Locale;
-
 public class methods {
     private static int addNumbers(int a, int b){
         return (a + b);
