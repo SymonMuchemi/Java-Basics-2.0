@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.basics;
 
 public class methods2 {
     public static int countOccurrence(char searchLetter, char[] letters){
