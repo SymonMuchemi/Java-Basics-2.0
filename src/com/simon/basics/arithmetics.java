@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.basics;
 
 public class arithmetics {
     public static void main(String[] args){

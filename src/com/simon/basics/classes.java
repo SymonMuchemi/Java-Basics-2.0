@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.basics;
 
 public class classes {
     static class Lens{
