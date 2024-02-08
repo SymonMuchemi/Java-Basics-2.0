@@ -9,18 +9,18 @@ public class TaxReport {
     // using constructor injection
 
     private TaxCalculator calculator;
-    public TaxReport (TaxCalculator taxCalculator) {
+    /*public TaxReport (TaxCalculator taxCalculator) {
         this.calculator = taxCalculator;
-    }
+    }*/
 
-    public void show() {
+    public void show(TaxCalculator calculator) {
         var tax = calculator.calculateTax();
 
         System.out.println("tax = " + tax);
     }
 
     // sets the tax calculator to depend on a different object
-    public void setCalculator(TaxCalculator calculator) {
+    /* public void setCalculator(TaxCalculator calculator) {
         this.calculator = calculator;
-    }
+    }*/
 }
